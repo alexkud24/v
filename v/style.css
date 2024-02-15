@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, ul {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.navigation {
+    padding-top: 35px;
+    margin-bottom: 72px;
+}
+
+.navigation__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+    grid-gap: 39px;
+}
+
+.navigation__list-item .navigation__list-item-link {
+    font-weight: 500;
+    color: #0C2836;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navigation__list-item .navigation__list-item-link:hover {
+    text-decoration: underline;
+}
+
+.promo {
+    margin-bottom: 65px;
+}
+
+.promo p {
+    margin-bottom: 262px;
+}
+
+.promo h1 span {
+    color: #FFA239;
+}
+
+.promo-bg {
+    height: 628px;
+    background: url("public/bg.png") center no-repeat;
+}
+
+.promo__list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.promo__list li:last-child {
+    margin-bottom: 0;
+}
+
+.projects {
+    margin-bottom: 100px;
+}
+
+.projects .projects__card img {
+    border-radius: 15px;
+    margin-bottom: 12px;
+
+}
+
+.projects .projects__card a {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFA239;
+    text-decoration: none;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.projects .projects__card a:hover {
+    text-decoration: underline;
+}
+
+.tech .row {
+    raw-gap: 24px;
+}
+
+.tech__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 55px 87px 24px 87px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
+}
+
+.tech__card img {
+    margin-bottom: 18px;
+}
+
+.tech__card-name {
+    font-size: 18px;
+    color: #8A99A8;
+}
